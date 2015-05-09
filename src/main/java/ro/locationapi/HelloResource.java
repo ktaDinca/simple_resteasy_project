@@ -8,7 +8,7 @@ import javax.ws.rs.core.Response;
 
 @Component
 @Path("/")
-public class HelloController {
+public class HelloResource {
 
     @Path("/test")
     @GET
